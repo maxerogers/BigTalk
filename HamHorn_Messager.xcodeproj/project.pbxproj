@@ -49,6 +49,7 @@
 		AFF487B51D6B9B5100FFBCA1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
 		AFF487B71D6B9B5100FFBCA1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AFF487B91D6B9B5100FFBCA1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AFF487C31D6B9B6E00FFBCA1 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +67,7 @@
 		AFF487991D6B9B5100FFBCA1 = {
 			isa = PBXGroup;
 			children = (
+				AFF487C31D6B9B6E00FFBCA1 /* .gitignore */,
 				AFF487A21D6B9B5100FFBCA1 /* HamHorn_Messager */,
 				AFF487B11D6B9B5100FFBCA1 /* MessagesExtension */,
 				AFF487AE1D6B9B5100FFBCA1 /* Frameworks */,
