@@ -8,12 +8,22 @@
 
 import UIKit
 import Messages
+import AVFoundation
 
 class MessagesViewController: MSMessagesAppViewController {
+    var gifController: GifViewController?
+    var sticker: MSSticker?
+    var audioPlayer: AVAudioPlayer?
+    var testElements = [ "Send Text",
+                         "Send Sound File",
+                         "Send Static Sticker",
+                         "Send Gif Sticker",
+                         "Send Hamhorn+Gif"]
     
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        
     }
     
     override func didReceiveMemoryWarning() {
@@ -61,12 +71,196 @@ class MessagesViewController: MSMessagesAppViewController {
         // Called before the extension transitions to a new presentation style.
     
         // Use this method to prepare for the change in presentation style.
+        
+        switch(presentationStyle) {
+        case .expanded:
+            guard let controller = storyboard?.instantiateViewController(withIdentifier: "TestViewController") as? GifViewController
+                else { fatalError("Could not initialize TestViewController ") }
+            gifController = controller
+            if let message = activeConversation?.selectedMessage, let url = message.url {
+                print(message.url)
+                do {
+                    audioPlayer = try AVAudioPlayer(contentsOf: URL(string: url.getUrlParam(variableName: "file")!)!)
+                    audioPlayer?.volume = 1.0
+                } catch {
+                    print(error)
+                }
+            }
+            
+//            let url = URL(fileURLWithPath: Bundle.main.path(forResource: "spongebob_computer_technology.gif", ofType: nil)!)
+            let url = URL(string: "https://media.giphy.com/media/4no7ul3pa571e/giphy.gif")
+            do {
+                let data = try Data(contentsOf: url!)
+                DispatchQueue.main.async {
+                    self.gifController?.imageView.image = UIImage.animatedImage(withAnimatedGIFData: data)
+                    self.audioPlayer?.play()
+                }
+            }
+            catch {
+                print("Issue")
+            }
+//            gifController?.imageView.animationRepeatCount = -1
+//            gifController?.imageView.animationDuration = 1
+            
+            self.present(gifController!, animated: true, completion: nil)
+            break
+        case .compact:
+            gifController?.dismiss(animated: true, completion: nil)
+            break
+        }
+        
+//        let gif = UIImage.animatedImage(withAnimatedGIFURL: URL(string: "https://media.giphy.com/media/85AU17hrcbCCMko/giphy.gif")!)
+//        guard let conversation = activeConversation else { fatalError("Expected an active conversation") }
+//        presentViewController(for: conversation, with: presentationStyle)
+//        self.present(controller, animated: true, completion: nil)
     }
     
     override func didTransition(to presentationStyle: MSMessagesAppPresentationStyle) {
         // Called after the extension transitions to a new presentation style.
     
         // Use this method to finalize any behaviors associated with the change in presentation style.
+    }
+    
+    func presentViewController(for conversation: MSConversation, with presentationStyle: MSMessagesAppPresentationStyle) {
+        guard let controller = storyboard?.instantiateViewController(withIdentifier: "TestViewController")
+            else { fatalError("Could not initialize TestViewController ") }
+        if presentationStyle == .compact {
+            print("compact version")
+            controller.view.backgroundColor = UIColor.blue
+        }
+        else {
+            print("expand version")
+            controller.view.backgroundColor = UIColor.green
+        }
+        
+        for child in childViewControllers {
+            child.willMove(toParentViewController: nil)
+            child.view.removeFromSuperview()
+            child.removeFromParentViewController()
+        }
+        
+        addChildViewController(controller)
+        controller.view.frame = view.bounds
+        controller.view.translatesAutoresizingMaskIntoConstraints = false
+        view.addSubview(controller.view)
+        
+        controller.view.leftAnchor.constraint(equalTo: view.leftAnchor).isActive = true
+        controller.view.rightAnchor.constraint(equalTo: view.rightAnchor).isActive = true
+        controller.view.topAnchor.constraint(equalTo: view.topAnchor).isActive = true
+        controller.view.bottomAnchor.constraint(equalTo: view.bottomAnchor).isActive = true
+        
+        controller.didMove(toParentViewController: self)
+    }
+    
+}
+
+extension URL {
+    func getUrlParam(variableName: String) -> String? {
+        if let queryItems = URLComponents(url: self, resolvingAgainstBaseURL: false)?.queryItems {
+            for item in queryItems {
+                if item.name == variableName, let itemValue = item.value {
+                    return itemValue
+                }
+            }
+        }
+        return nil
+    }
+}
+
+extension MessagesViewController: UITableViewDelegate {
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        let key = testElements[indexPath.row]
+        switch(key) {
+            case "Send Text":
+                self.activeConversation?.insertText("Team Adventure Hustle") { (error) in
+                    print(error?.localizedDescription)
+                }
+                break
+            case "Send Sound File":
+                guard let url = Bundle.main.url(forResource: "ham", withExtension: "wav") else { print("failed path"); return }
+                self.activeConversation?.insertAttachment(url, withAlternateFilename: "ham.wav", completionHandler: { (error) in
+                    print(error?.localizedDescription)
+                })
+                break
+            case "Send Static Sticker":
+                do {
+                    guard let url = Bundle.main.url(forResource: "CarrotBot", withExtension: "png") else {
+                        print("Could no find png url")
+                        return
+                    }
+                    self.sticker = try MSSticker(contentsOfFileURL: url, localizedDescription: "Carrot Bot PNG")
+                    self.activeConversation?.insert(self.sticker!) { (error) in
+                        print(error?.localizedDescription)
+                    }
+                } catch {
+                    print(error.localizedDescription)
+                }
+                break
+            case "Send Gif Sticker":
+                do {
+                    guard let url = Bundle.main.url(forResource: "nyancat", withExtension: "gif") else {
+                        print("Could no find gif url")
+                        return
+                    }
+                    self.sticker = try MSSticker(contentsOfFileURL: url, localizedDescription: "Nyancat Gif")
+                    self.activeConversation?.insert(self.sticker!) { (error) in
+                        print(error?.localizedDescription)
+                    }
+                } catch {
+                    print(error)
+                }
+                break
+            case "Send Hamhorn+Gif":
+                guard let url = Bundle.main.url(forResource: "ham", withExtension: "wav") else { print("failed path"); return }
+                
+                let message = MSMessage()
+                let layout = MSMessageTemplateLayout()
+                layout.caption = key
+                message.url = URL(string: "http://a.b.c?file=\(url)")
+                
+                do {
+                    audioPlayer = try AVAudioPlayer(contentsOf: url)
+                    audioPlayer?.volume = 1.0
+                    audioPlayer?.prepareToPlay()
+                    audioPlayer?.play()
+                } catch {
+                    print(error)
+                }
+                
+                message.layout = layout
+                self.activeConversation?.insert(message, completionHandler: nil)
+                break
+            default:
+                break
+        }
+    }
+//    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+//        let key = Array(sounds.keys)[indexPath.row]
+//        guard let url = Bundle.main.url(forResource: sounds[key], withExtension: nil) else { print("failed path"); return }
+//        
+//        do {
+//            audioPlayer = try AVAudioPlayer(contentsOf: url)
+//            audioPlayer?.volume = 1.0
+//            audioPlayer?.prepareToPlay()
+//            audioPlayer?.play()
+//        } catch {
+//            print(error)
+//        }
+//
+//        self.activeConversation?.insertAttachment(url, withAlternateFilename: key, completionHandler: nil)
+//    }
+}
+
+extension MessagesViewController: UITableViewDataSource {
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return testElements.count
+    }
+    
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let cell = tableView.dequeueReusableCell(withIdentifier: "hamhorn") as! HamHornTableViewCell
+//        let key = Array(sounds.keys)[indexPath.row]
+        cell.label.text = testElements[indexPath.row]
+        return cell
     }
 
 }

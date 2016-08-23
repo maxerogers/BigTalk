@@ -7,12 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AF4C532D1D6CC8D00014A892 /* UIImage+animatedGIF.m in Sources */ = {isa = PBXBuildFile; fileRef = AF4C532C1D6CC8D00014A892 /* UIImage+animatedGIF.m */; };
+		AF4C53321D6CE96C0014A892 /* spongebob_computer_technology.gif in Resources */ = {isa = PBXBuildFile; fileRef = AF4C53311D6CE96C0014A892 /* spongebob_computer_technology.gif */; };
+		AF4C53341D6CEA1B0014A892 /* GifViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF4C53331D6CEA1B0014A892 /* GifViewController.swift */; };
+		AF4C53361D6CFC8E0014A892 /* CarrotBot.png in Resources */ = {isa = PBXBuildFile; fileRef = AF4C53351D6CFC8E0014A892 /* CarrotBot.png */; };
+		AF4C53381D6CFFCA0014A892 /* nyancat.gif in Resources */ = {isa = PBXBuildFile; fileRef = AF4C53371D6CFFCA0014A892 /* nyancat.gif */; };
 		AFF487A41D6B9B5100FFBCA1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AFF487A31D6B9B5100FFBCA1 /* Assets.xcassets */; };
 		AFF487AB1D6B9B5100FFBCA1 /* MessagesExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = AFF487AA1D6B9B5100FFBCA1 /* MessagesExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		AFF487B01D6B9B5100FFBCA1 /* Messages.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFF487AF1D6B9B5100FFBCA1 /* Messages.framework */; };
 		AFF487B31D6B9B5100FFBCA1 /* MessagesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFF487B21D6B9B5100FFBCA1 /* MessagesViewController.swift */; };
 		AFF487B61D6B9B5100FFBCA1 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AFF487B41D6B9B5100FFBCA1 /* MainInterface.storyboard */; };
 		AFF487B81D6B9B5100FFBCA1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AFF487B71D6B9B5100FFBCA1 /* Assets.xcassets */; };
+		AFF487C51D6B9F6400FFBCA1 /* HamHornTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFF487C41D6B9F6400FFBCA1 /* HamHornTableViewCell.swift */; };
+		AFF487C81D6BA36600FFBCA1 /* lok_tar.wav in Resources */ = {isa = PBXBuildFile; fileRef = AFF487C71D6BA36600FFBCA1 /* lok_tar.wav */; };
+		AFF487CC1D6BA4B500FFBCA1 /* ham.wav in Resources */ = {isa = PBXBuildFile; fileRef = AFF487C91D6BA4B500FFBCA1 /* ham.wav */; };
+		AFF487CD1D6BA4B500FFBCA1 /* rapAirHorn.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AFF487CA1D6BA4B500FFBCA1 /* rapAirHorn.mp3 */; };
+		AFF487CE1D6BA4B500FFBCA1 /* sadTrombone.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AFF487CB1D6BA4B500FFBCA1 /* sadTrombone.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +50,13 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		AF4C532A1D6CC8D00014A892 /* MessagesExtension-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MessagesExtension-Bridging-Header.h"; sourceTree = "<group>"; };
+		AF4C532B1D6CC8D00014A892 /* UIImage+animatedGIF.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+animatedGIF.h"; sourceTree = "<group>"; };
+		AF4C532C1D6CC8D00014A892 /* UIImage+animatedGIF.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+animatedGIF.m"; sourceTree = "<group>"; };
+		AF4C53311D6CE96C0014A892 /* spongebob_computer_technology.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = spongebob_computer_technology.gif; sourceTree = "<group>"; };
+		AF4C53331D6CEA1B0014A892 /* GifViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GifViewController.swift; sourceTree = "<group>"; };
+		AF4C53351D6CFC8E0014A892 /* CarrotBot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CarrotBot.png; sourceTree = "<group>"; };
+		AF4C53371D6CFFCA0014A892 /* nyancat.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = nyancat.gif; sourceTree = "<group>"; };
 		AFF487A01D6B9B5100FFBCA1 /* HamHorn_Messager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HamHorn_Messager.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AFF487A31D6B9B5100FFBCA1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AFF487A51D6B9B5100FFBCA1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -50,6 +67,11 @@
 		AFF487B71D6B9B5100FFBCA1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AFF487B91D6B9B5100FFBCA1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AFF487C31D6B9B6E00FFBCA1 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		AFF487C41D6B9F6400FFBCA1 /* HamHornTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HamHornTableViewCell.swift; sourceTree = "<group>"; };
+		AFF487C71D6BA36600FFBCA1 /* lok_tar.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = lok_tar.wav; sourceTree = "<group>"; };
+		AFF487C91D6BA4B500FFBCA1 /* ham.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = ham.wav; sourceTree = "<group>"; };
+		AFF487CA1D6BA4B500FFBCA1 /* rapAirHorn.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = rapAirHorn.mp3; sourceTree = "<group>"; };
+		AFF487CB1D6BA4B500FFBCA1 /* sadTrombone.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = sadTrombone.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +86,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AF4C53291D6CC89B0014A892 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				AF4C532B1D6CC8D00014A892 /* UIImage+animatedGIF.h */,
+				AF4C532C1D6CC8D00014A892 /* UIImage+animatedGIF.m */,
+			);
+			name = Helpers;
+			sourceTree = "<group>";
+		};
+		AF4C532E1D6CE9300014A892 /* Gifs */ = {
+			isa = PBXGroup;
+			children = (
+				AF4C53371D6CFFCA0014A892 /* nyancat.gif */,
+				AF4C53351D6CFC8E0014A892 /* CarrotBot.png */,
+				AF4C53311D6CE96C0014A892 /* spongebob_computer_technology.gif */,
+			);
+			name = Gifs;
+			sourceTree = "<group>";
+		};
 		AFF487991D6B9B5100FFBCA1 = {
 			isa = PBXGroup;
 			children = (
@@ -104,12 +145,29 @@
 		AFF487B11D6B9B5100FFBCA1 /* MessagesExtension */ = {
 			isa = PBXGroup;
 			children = (
+				AF4C532E1D6CE9300014A892 /* Gifs */,
+				AF4C532A1D6CC8D00014A892 /* MessagesExtension-Bridging-Header.h */,
+				AF4C53291D6CC89B0014A892 /* Helpers */,
+				AFF487C61D6BA35700FFBCA1 /* Sounds */,
 				AFF487B21D6B9B5100FFBCA1 /* MessagesViewController.swift */,
 				AFF487B41D6B9B5100FFBCA1 /* MainInterface.storyboard */,
 				AFF487B71D6B9B5100FFBCA1 /* Assets.xcassets */,
 				AFF487B91D6B9B5100FFBCA1 /* Info.plist */,
+				AFF487C41D6B9F6400FFBCA1 /* HamHornTableViewCell.swift */,
+				AF4C53331D6CEA1B0014A892 /* GifViewController.swift */,
 			);
 			path = MessagesExtension;
+			sourceTree = "<group>";
+		};
+		AFF487C61D6BA35700FFBCA1 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				AFF487C91D6BA4B500FFBCA1 /* ham.wav */,
+				AFF487CA1D6BA4B500FFBCA1 /* rapAirHorn.mp3 */,
+				AFF487CB1D6BA4B500FFBCA1 /* sadTrombone.mp3 */,
+				AFF487C71D6BA36600FFBCA1 /* lok_tar.wav */,
+			);
+			name = Sounds;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -167,6 +225,7 @@
 					AFF487A91D6B9B5100FFBCA1 = {
 						CreatedOnToolsVersion = 8.0;
 						DevelopmentTeam = WE35T7942D;
+						LastSwiftMigration = 0800;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -203,8 +262,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AFF487CD1D6BA4B500FFBCA1 /* rapAirHorn.mp3 in Resources */,
+				AFF487CE1D6BA4B500FFBCA1 /* sadTrombone.mp3 in Resources */,
+				AFF487C81D6BA36600FFBCA1 /* lok_tar.wav in Resources */,
+				AF4C53361D6CFC8E0014A892 /* CarrotBot.png in Resources */,
+				AF4C53381D6CFFCA0014A892 /* nyancat.gif in Resources */,
+				AFF487CC1D6BA4B500FFBCA1 /* ham.wav in Resources */,
 				AFF487B81D6B9B5100FFBCA1 /* Assets.xcassets in Resources */,
 				AFF487B61D6B9B5100FFBCA1 /* MainInterface.storyboard in Resources */,
+				AF4C53321D6CE96C0014A892 /* spongebob_computer_technology.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -216,6 +282,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				AFF487B31D6B9B5100FFBCA1 /* MessagesViewController.swift in Sources */,
+				AF4C532D1D6CC8D00014A892 /* UIImage+animatedGIF.m in Sources */,
+				AFF487C51D6B9F6400FFBCA1 /* HamHornTableViewCell.swift in Sources */,
+				AF4C53341D6CEA1B0014A892 /* GifViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -336,12 +405,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = WE35T7942D;
 				INFOPLIST_FILE = MessagesExtension/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.-carrotcreative.HamHorn-Messager.MessagesExtension";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "MessagesExtension/MessagesExtension-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -350,12 +422,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = WE35T7942D;
 				INFOPLIST_FILE = MessagesExtension/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.-carrotcreative.HamHorn-Messager.MessagesExtension";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "MessagesExtension/MessagesExtension-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -407,6 +481,7 @@
 				AFF487BE1D6B9B5100FFBCA1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AFF487C01D6B9B5100FFBCA1 /* Build configuration list for PBXNativeTarget "HamHorn_Messager" */ = {
 			isa = XCConfigurationList;
@@ -415,6 +490,7 @@
 				AFF487C21D6B9B5100FFBCA1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
