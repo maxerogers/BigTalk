@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:HamHorn_Messager.xcodeproj">
+      location = "self:/Users/maxrogers/Dev/HamHorn_Messager/HamHorn_Messages.xcodeproj">
    </FileRef>
 </Workspace>

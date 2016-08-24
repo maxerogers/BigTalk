@@ -57,7 +57,7 @@
 		AF4C53331D6CEA1B0014A892 /* GifViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GifViewController.swift; sourceTree = "<group>"; };
 		AF4C53351D6CFC8E0014A892 /* CarrotBot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CarrotBot.png; sourceTree = "<group>"; };
 		AF4C53371D6CFFCA0014A892 /* nyancat.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = nyancat.gif; sourceTree = "<group>"; };
-		AFF487A01D6B9B5100FFBCA1 /* HamHorn_Messager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HamHorn_Messager.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFF487A01D6B9B5100FFBCA1 /* Hamhorn_Messages.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hamhorn_Messages.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AFF487A31D6B9B5100FFBCA1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AFF487A51D6B9B5100FFBCA1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AFF487AA1D6B9B5100FFBCA1 /* MessagesExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = MessagesExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -109,7 +109,7 @@
 			isa = PBXGroup;
 			children = (
 				AFF487C31D6B9B6E00FFBCA1 /* .gitignore */,
-				AFF487A21D6B9B5100FFBCA1 /* HamHorn_Messager */,
+				AFF487A21D6B9B5100FFBCA1 /* HamHorn_Messages */,
 				AFF487B11D6B9B5100FFBCA1 /* MessagesExtension */,
 				AFF487AE1D6B9B5100FFBCA1 /* Frameworks */,
 				AFF487A11D6B9B5100FFBCA1 /* Products */,
@@ -119,18 +119,19 @@
 		AFF487A11D6B9B5100FFBCA1 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				AFF487A01D6B9B5100FFBCA1 /* HamHorn_Messager.app */,
+				AFF487A01D6B9B5100FFBCA1 /* Hamhorn_Messages.app */,
 				AFF487AA1D6B9B5100FFBCA1 /* MessagesExtension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		AFF487A21D6B9B5100FFBCA1 /* HamHorn_Messager */ = {
+		AFF487A21D6B9B5100FFBCA1 /* HamHorn_Messages */ = {
 			isa = PBXGroup;
 			children = (
 				AFF487A31D6B9B5100FFBCA1 /* Assets.xcassets */,
 				AFF487A51D6B9B5100FFBCA1 /* Info.plist */,
 			);
+			name = HamHorn_Messages;
 			path = HamHorn_Messager;
 			sourceTree = "<group>";
 		};
@@ -173,9 +174,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		AFF4879F1D6B9B5100FFBCA1 /* HamHorn_Messager */ = {
+		AFF4879F1D6B9B5100FFBCA1 /* Hamhorn_Messages */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = AFF487C01D6B9B5100FFBCA1 /* Build configuration list for PBXNativeTarget "HamHorn_Messager" */;
+			buildConfigurationList = AFF487C01D6B9B5100FFBCA1 /* Build configuration list for PBXNativeTarget "Hamhorn_Messages" */;
 			buildPhases = (
 				AFF4879E1D6B9B5100FFBCA1 /* Resources */,
 				AFF487BF1D6B9B5100FFBCA1 /* Embed App Extensions */,
@@ -185,9 +186,9 @@
 			dependencies = (
 				AFF487AD1D6B9B5100FFBCA1 /* PBXTargetDependency */,
 			);
-			name = HamHorn_Messager;
+			name = Hamhorn_Messages;
 			productName = HamHorn_Messager;
-			productReference = AFF487A01D6B9B5100FFBCA1 /* HamHorn_Messager.app */;
+			productReference = AFF487A01D6B9B5100FFBCA1 /* Hamhorn_Messages.app */;
 			productType = "com.apple.product-type.application.messages";
 		};
 		AFF487A91D6B9B5100FFBCA1 /* MessagesExtension */ = {
@@ -230,7 +231,7 @@
 					};
 				};
 			};
-			buildConfigurationList = AFF4879D1D6B9B5100FFBCA1 /* Build configuration list for PBXProject "HamHorn_Messager" */;
+			buildConfigurationList = AFF4879D1D6B9B5100FFBCA1 /* Build configuration list for PBXProject "HamHorn_Messages" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -243,7 +244,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				AFF4879F1D6B9B5100FFBCA1 /* HamHorn_Messager */,
+				AFF4879F1D6B9B5100FFBCA1 /* Hamhorn_Messages */,
 				AFF487A91D6B9B5100FFBCA1 /* MessagesExtension */,
 			);
 		};
@@ -409,7 +410,7 @@
 				DEVELOPMENT_TEAM = WE35T7942D;
 				INFOPLIST_FILE = MessagesExtension/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.-carrotcreative.HamHorn-Messager.MessagesExtension";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.carrotcreative.HamHorn-Messages.MessagesExtension";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_OBJC_BRIDGING_HEADER = "MessagesExtension/MessagesExtension-Bridging-Header.h";
@@ -426,7 +427,7 @@
 				DEVELOPMENT_TEAM = WE35T7942D;
 				INFOPLIST_FILE = MessagesExtension/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.-carrotcreative.HamHorn-Messager.MessagesExtension";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.carrotcreative.HamHorn-Messages.MessagesExtension";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_OBJC_BRIDGING_HEADER = "MessagesExtension/MessagesExtension-Bridging-Header.h";
@@ -441,7 +442,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = WE35T7942D;
 				INFOPLIST_FILE = HamHorn_Messager/Info.plist;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.-carrotcreative.HamHorn-Messager";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.carrotcreative.HamHorn-Messages";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -455,7 +456,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = WE35T7942D;
 				INFOPLIST_FILE = HamHorn_Messager/Info.plist;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.-carrotcreative.HamHorn-Messager";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.carrotcreative.HamHorn-Messages";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -465,7 +466,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		AFF4879D1D6B9B5100FFBCA1 /* Build configuration list for PBXProject "HamHorn_Messager" */ = {
+		AFF4879D1D6B9B5100FFBCA1 /* Build configuration list for PBXProject "HamHorn_Messages" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				AFF487BA1D6B9B5100FFBCA1 /* Debug */,
@@ -483,7 +484,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		AFF487C01D6B9B5100FFBCA1 /* Build configuration list for PBXNativeTarget "HamHorn_Messager" */ = {
+		AFF487C01D6B9B5100FFBCA1 /* Build configuration list for PBXNativeTarget "Hamhorn_Messages" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				AFF487C11D6B9B5100FFBCA1 /* Debug */,
