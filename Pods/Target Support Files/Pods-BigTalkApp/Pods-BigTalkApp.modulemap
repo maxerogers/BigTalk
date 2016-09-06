@@ -1,0 +1,6 @@
+framework module Pods_BigTalkApp {
+  umbrella header "Pods-BigTalkApp-umbrella.h"
+
+  export *
+  module * { export * }
+}

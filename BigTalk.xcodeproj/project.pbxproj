@@ -1,0 +1,992 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D4E1C2BC5F0E57F1755113B /* Pods_BigTalkApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 247CE0BC0896573104B23DCF /* Pods_BigTalkApp.framework */; };
+		44736CA6B6AED3D8629D2A52 /* Pods_BigTalkAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1328C611107DD1D4AC5F55FD /* Pods_BigTalkAppTests.framework */; };
+		4523B87F84C10E85639C6006 /* Pods_BigTalkAppMessages.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A7C307C525BBBB7015D61DD /* Pods_BigTalkAppMessages.framework */; };
+		50F3A9F31D7E0387007BD33C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50F3A9F21D7E0387007BD33C /* AppDelegate.swift */; };
+		50F3A9F51D7E0387007BD33C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50F3A9F41D7E0387007BD33C /* ViewController.swift */; };
+		50F3A9F81D7E0387007BD33C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50F3A9F61D7E0387007BD33C /* Main.storyboard */; };
+		50F3A9FB1D7E0387007BD33C /* BigTalkApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 50F3A9F91D7E0387007BD33C /* BigTalkApp.xcdatamodeld */; };
+		50F3A9FD1D7E0387007BD33C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 50F3A9FC1D7E0387007BD33C /* Assets.xcassets */; };
+		50F3AA001D7E0387007BD33C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50F3A9FE1D7E0387007BD33C /* LaunchScreen.storyboard */; };
+		50F3AA0B1D7E0387007BD33C /* BigTalkAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50F3AA0A1D7E0387007BD33C /* BigTalkAppTests.swift */; };
+		50F3AA161D7E0387007BD33C /* BigTalkAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50F3AA151D7E0387007BD33C /* BigTalkAppUITests.swift */; };
+		50F3AA261D7E0517007BD33C /* Messages.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFF487AF1D6B9B5100FFBCA1 /* Messages.framework */; };
+		50F3AA291D7E0517007BD33C /* MessagesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50F3AA281D7E0517007BD33C /* MessagesViewController.swift */; };
+		50F3AA2C1D7E0517007BD33C /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50F3AA2A1D7E0517007BD33C /* MainInterface.storyboard */; };
+		50F3AA2E1D7E0517007BD33C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 50F3AA2D1D7E0517007BD33C /* Assets.xcassets */; };
+		50F3AA321D7E0517007BD33C /* BigTalkAppMessages.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 50F3AA251D7E0517007BD33C /* BigTalkAppMessages.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		A0971650E431EC4E1D6D2403 /* Pods_BigTalkAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB027C8949230D0FF9447ADE /* Pods_BigTalkAppUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		50F3AA071D7E0387007BD33C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AFF4879A1D6B9B5100FFBCA1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 50F3A9EF1D7E0387007BD33C;
+			remoteInfo = BigTalkApp;
+		};
+		50F3AA121D7E0387007BD33C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AFF4879A1D6B9B5100FFBCA1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 50F3A9EF1D7E0387007BD33C;
+			remoteInfo = BigTalkApp;
+		};
+		50F3AA301D7E0517007BD33C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AFF4879A1D6B9B5100FFBCA1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 50F3AA241D7E0517007BD33C;
+			remoteInfo = BigTalkAppMessages;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		50F3AA361D7E0517007BD33C /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				50F3AA321D7E0517007BD33C /* BigTalkAppMessages.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		1328C611107DD1D4AC5F55FD /* Pods_BigTalkAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BigTalkAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		247CE0BC0896573104B23DCF /* Pods_BigTalkApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BigTalkApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		399DB2C1CF58D9DCB4D6CE27 /* Pods-BigTalkAppMessages.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BigTalkAppMessages.release.xcconfig"; path = "Pods/Target Support Files/Pods-BigTalkAppMessages/Pods-BigTalkAppMessages.release.xcconfig"; sourceTree = "<group>"; };
+		50F3A9F01D7E0387007BD33C /* BigTalkApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BigTalkApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		50F3A9F21D7E0387007BD33C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		50F3A9F41D7E0387007BD33C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		50F3A9F71D7E0387007BD33C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		50F3A9FA1D7E0387007BD33C /* BigTalkApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BigTalkApp.xcdatamodel; sourceTree = "<group>"; };
+		50F3A9FC1D7E0387007BD33C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		50F3A9FF1D7E0387007BD33C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		50F3AA011D7E0387007BD33C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		50F3AA061D7E0387007BD33C /* BigTalkAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BigTalkAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		50F3AA0A1D7E0387007BD33C /* BigTalkAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BigTalkAppTests.swift; sourceTree = "<group>"; };
+		50F3AA0C1D7E0387007BD33C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		50F3AA111D7E0387007BD33C /* BigTalkAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BigTalkAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		50F3AA151D7E0387007BD33C /* BigTalkAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BigTalkAppUITests.swift; sourceTree = "<group>"; };
+		50F3AA171D7E0387007BD33C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		50F3AA251D7E0517007BD33C /* BigTalkAppMessages.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = BigTalkAppMessages.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		50F3AA281D7E0517007BD33C /* MessagesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessagesViewController.swift; sourceTree = "<group>"; };
+		50F3AA2B1D7E0517007BD33C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
+		50F3AA2D1D7E0517007BD33C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		50F3AA2F1D7E0517007BD33C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		595C2706597FD8E378357905 /* Pods-BigTalkAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BigTalkAppUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BigTalkAppUITests/Pods-BigTalkAppUITests.release.xcconfig"; sourceTree = "<group>"; };
+		6A7C307C525BBBB7015D61DD /* Pods_BigTalkAppMessages.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BigTalkAppMessages.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		730E253589E0E2A4C2C01880 /* Pods-BigTalkAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BigTalkAppUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BigTalkAppUITests/Pods-BigTalkAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		879E535B6136EB14072101DB /* Pods-BigTalkAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BigTalkAppTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BigTalkAppTests/Pods-BigTalkAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		9CC53ED2097C2C3962BF5EC0 /* Pods-BigTalkApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BigTalkApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-BigTalkApp/Pods-BigTalkApp.release.xcconfig"; sourceTree = "<group>"; };
+		AF4C532A1D6CC8D00014A892 /* MessagesExtension-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "MessagesExtension-Bridging-Header.h"; path = "../MessagesExtension/MessagesExtension-Bridging-Header.h"; sourceTree = "<group>"; };
+		AF4C532B1D6CC8D00014A892 /* UIImage+animatedGIF.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+animatedGIF.h"; sourceTree = "<group>"; };
+		AF4C532C1D6CC8D00014A892 /* UIImage+animatedGIF.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+animatedGIF.m"; sourceTree = "<group>"; };
+		AF4C53311D6CE96C0014A892 /* spongebob_computer_technology.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = spongebob_computer_technology.gif; sourceTree = "<group>"; };
+		AF4C53331D6CEA1B0014A892 /* GifViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GifViewController.swift; path = ../MessagesExtension/GifViewController.swift; sourceTree = "<group>"; };
+		AF4C53351D6CFC8E0014A892 /* CarrotBot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CarrotBot.png; sourceTree = "<group>"; };
+		AF4C53371D6CFFCA0014A892 /* nyancat.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = nyancat.gif; sourceTree = "<group>"; };
+		AFD5AF651CEDC945110EEBC6 /* Pods-BigTalkAppMessages.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BigTalkAppMessages.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BigTalkAppMessages/Pods-BigTalkAppMessages.debug.xcconfig"; sourceTree = "<group>"; };
+		AFF487AF1D6B9B5100FFBCA1 /* Messages.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Messages.framework; path = System/Library/Frameworks/Messages.framework; sourceTree = SDKROOT; };
+		AFF487B21D6B9B5100FFBCA1 /* MessagesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MessagesViewController.swift; path = ../MessagesExtension/MessagesViewController.swift; sourceTree = "<group>"; };
+		AFF487B51D6B9B5100FFBCA1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
+		AFF487B71D6B9B5100FFBCA1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../MessagesExtension/Assets.xcassets; sourceTree = "<group>"; };
+		AFF487B91D6B9B5100FFBCA1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = ../MessagesExtension/Info.plist; sourceTree = "<group>"; };
+		AFF487C31D6B9B6E00FFBCA1 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		AFF487C41D6B9F6400FFBCA1 /* HamHornTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HamHornTableViewCell.swift; path = ../MessagesExtension/HamHornTableViewCell.swift; sourceTree = "<group>"; };
+		AFF487C71D6BA36600FFBCA1 /* lok_tar.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = lok_tar.wav; sourceTree = "<group>"; };
+		AFF487C91D6BA4B500FFBCA1 /* ham.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = ham.wav; sourceTree = "<group>"; };
+		AFF487CA1D6BA4B500FFBCA1 /* rapAirHorn.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = rapAirHorn.mp3; sourceTree = "<group>"; };
+		AFF487CB1D6BA4B500FFBCA1 /* sadTrombone.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = sadTrombone.mp3; sourceTree = "<group>"; };
+		DB027C8949230D0FF9447ADE /* Pods_BigTalkAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BigTalkAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC148415511A954D511B05D2 /* Pods-BigTalkApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BigTalkApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BigTalkApp/Pods-BigTalkApp.debug.xcconfig"; sourceTree = "<group>"; };
+		ED631434CA3A06752B8F5CF4 /* Pods-BigTalkAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BigTalkAppTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BigTalkAppTests/Pods-BigTalkAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		50F3A9ED1D7E0387007BD33C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D4E1C2BC5F0E57F1755113B /* Pods_BigTalkApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50F3AA031D7E0387007BD33C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44736CA6B6AED3D8629D2A52 /* Pods_BigTalkAppTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50F3AA0E1D7E0387007BD33C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0971650E431EC4E1D6D2403 /* Pods_BigTalkAppUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50F3AA221D7E0517007BD33C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50F3AA261D7E0517007BD33C /* Messages.framework in Frameworks */,
+				4523B87F84C10E85639C6006 /* Pods_BigTalkAppMessages.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		50F3A9F11D7E0387007BD33C /* BigTalkApp */ = {
+			isa = PBXGroup;
+			children = (
+				50F3A9F21D7E0387007BD33C /* AppDelegate.swift */,
+				50F3A9F41D7E0387007BD33C /* ViewController.swift */,
+				50F3A9F61D7E0387007BD33C /* Main.storyboard */,
+				50F3A9FC1D7E0387007BD33C /* Assets.xcassets */,
+				50F3A9FE1D7E0387007BD33C /* LaunchScreen.storyboard */,
+				50F3AA011D7E0387007BD33C /* Info.plist */,
+				50F3A9F91D7E0387007BD33C /* BigTalkApp.xcdatamodeld */,
+			);
+			path = BigTalkApp;
+			sourceTree = "<group>";
+		};
+		50F3AA091D7E0387007BD33C /* BigTalkAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				50F3AA0A1D7E0387007BD33C /* BigTalkAppTests.swift */,
+				50F3AA0C1D7E0387007BD33C /* Info.plist */,
+			);
+			path = BigTalkAppTests;
+			sourceTree = "<group>";
+		};
+		50F3AA141D7E0387007BD33C /* BigTalkAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				50F3AA151D7E0387007BD33C /* BigTalkAppUITests.swift */,
+				50F3AA171D7E0387007BD33C /* Info.plist */,
+			);
+			path = BigTalkAppUITests;
+			sourceTree = "<group>";
+		};
+		50F3AA271D7E0517007BD33C /* BigTalkAppMessages */ = {
+			isa = PBXGroup;
+			children = (
+				AF4C532E1D6CE9300014A892 /* Gifs */,
+				AF4C532A1D6CC8D00014A892 /* MessagesExtension-Bridging-Header.h */,
+				AF4C53291D6CC89B0014A892 /* Helpers */,
+				AFF487C61D6BA35700FFBCA1 /* Sounds */,
+				AFF487B21D6B9B5100FFBCA1 /* MessagesViewController.swift */,
+				AFF487B41D6B9B5100FFBCA1 /* MainInterface.storyboard */,
+				AFF487B71D6B9B5100FFBCA1 /* Assets.xcassets */,
+				AFF487B91D6B9B5100FFBCA1 /* Info.plist */,
+				AFF487C41D6B9F6400FFBCA1 /* HamHornTableViewCell.swift */,
+				AF4C53331D6CEA1B0014A892 /* GifViewController.swift */,
+				50F3AA281D7E0517007BD33C /* MessagesViewController.swift */,
+				50F3AA2A1D7E0517007BD33C /* MainInterface.storyboard */,
+				50F3AA2D1D7E0517007BD33C /* Assets.xcassets */,
+				50F3AA2F1D7E0517007BD33C /* Info.plist */,
+			);
+			path = BigTalkAppMessages;
+			sourceTree = "<group>";
+		};
+		52D7B84804598C83B4174F0A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DC148415511A954D511B05D2 /* Pods-BigTalkApp.debug.xcconfig */,
+				9CC53ED2097C2C3962BF5EC0 /* Pods-BigTalkApp.release.xcconfig */,
+				AFD5AF651CEDC945110EEBC6 /* Pods-BigTalkAppMessages.debug.xcconfig */,
+				399DB2C1CF58D9DCB4D6CE27 /* Pods-BigTalkAppMessages.release.xcconfig */,
+				ED631434CA3A06752B8F5CF4 /* Pods-BigTalkAppTests.debug.xcconfig */,
+				879E535B6136EB14072101DB /* Pods-BigTalkAppTests.release.xcconfig */,
+				730E253589E0E2A4C2C01880 /* Pods-BigTalkAppUITests.debug.xcconfig */,
+				595C2706597FD8E378357905 /* Pods-BigTalkAppUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		AF4C53291D6CC89B0014A892 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				AF4C532B1D6CC8D00014A892 /* UIImage+animatedGIF.h */,
+				AF4C532C1D6CC8D00014A892 /* UIImage+animatedGIF.m */,
+			);
+			name = Helpers;
+			path = ../MessagesExtension;
+			sourceTree = "<group>";
+		};
+		AF4C532E1D6CE9300014A892 /* Gifs */ = {
+			isa = PBXGroup;
+			children = (
+				AF4C53371D6CFFCA0014A892 /* nyancat.gif */,
+				AF4C53351D6CFC8E0014A892 /* CarrotBot.png */,
+				AF4C53311D6CE96C0014A892 /* spongebob_computer_technology.gif */,
+			);
+			name = Gifs;
+			path = ../MessagesExtension;
+			sourceTree = "<group>";
+		};
+		AFF487991D6B9B5100FFBCA1 = {
+			isa = PBXGroup;
+			children = (
+				AFF487C31D6B9B6E00FFBCA1 /* .gitignore */,
+				50F3A9F11D7E0387007BD33C /* BigTalkApp */,
+				50F3AA091D7E0387007BD33C /* BigTalkAppTests */,
+				50F3AA141D7E0387007BD33C /* BigTalkAppUITests */,
+				50F3AA271D7E0517007BD33C /* BigTalkAppMessages */,
+				AFF487AE1D6B9B5100FFBCA1 /* Frameworks */,
+				AFF487A11D6B9B5100FFBCA1 /* Products */,
+				52D7B84804598C83B4174F0A /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		AFF487A11D6B9B5100FFBCA1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				50F3A9F01D7E0387007BD33C /* BigTalkApp.app */,
+				50F3AA061D7E0387007BD33C /* BigTalkAppTests.xctest */,
+				50F3AA111D7E0387007BD33C /* BigTalkAppUITests.xctest */,
+				50F3AA251D7E0517007BD33C /* BigTalkAppMessages.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AFF487AE1D6B9B5100FFBCA1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AFF487AF1D6B9B5100FFBCA1 /* Messages.framework */,
+				247CE0BC0896573104B23DCF /* Pods_BigTalkApp.framework */,
+				6A7C307C525BBBB7015D61DD /* Pods_BigTalkAppMessages.framework */,
+				1328C611107DD1D4AC5F55FD /* Pods_BigTalkAppTests.framework */,
+				DB027C8949230D0FF9447ADE /* Pods_BigTalkAppUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AFF487C61D6BA35700FFBCA1 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				AFF487C91D6BA4B500FFBCA1 /* ham.wav */,
+				AFF487CA1D6BA4B500FFBCA1 /* rapAirHorn.mp3 */,
+				AFF487CB1D6BA4B500FFBCA1 /* sadTrombone.mp3 */,
+				AFF487C71D6BA36600FFBCA1 /* lok_tar.wav */,
+			);
+			name = Sounds;
+			path = ../MessagesExtension;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		50F3A9EF1D7E0387007BD33C /* BigTalkApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 50F3AA181D7E0387007BD33C /* Build configuration list for PBXNativeTarget "BigTalkApp" */;
+			buildPhases = (
+				8E914BC5CD05AD79CEBB0EF6 /* [CP] Check Pods Manifest.lock */,
+				50F3A9EC1D7E0387007BD33C /* Sources */,
+				50F3A9ED1D7E0387007BD33C /* Frameworks */,
+				50F3A9EE1D7E0387007BD33C /* Resources */,
+				50F3AA361D7E0517007BD33C /* Embed App Extensions */,
+				C45804FE010B74C174F9A8D1 /* [CP] Embed Pods Frameworks */,
+				C5E152CCED234B1D38AA9E51 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				50F3AA311D7E0517007BD33C /* PBXTargetDependency */,
+			);
+			name = BigTalkApp;
+			productName = BigTalkApp;
+			productReference = 50F3A9F01D7E0387007BD33C /* BigTalkApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		50F3AA051D7E0387007BD33C /* BigTalkAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 50F3AA1B1D7E0387007BD33C /* Build configuration list for PBXNativeTarget "BigTalkAppTests" */;
+			buildPhases = (
+				2C116B291582D6D47A37E1D2 /* [CP] Check Pods Manifest.lock */,
+				50F3AA021D7E0387007BD33C /* Sources */,
+				50F3AA031D7E0387007BD33C /* Frameworks */,
+				50F3AA041D7E0387007BD33C /* Resources */,
+				E7B91C1C7143633211F73B31 /* [CP] Embed Pods Frameworks */,
+				E00007D27662A4270391C1F1 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				50F3AA081D7E0387007BD33C /* PBXTargetDependency */,
+			);
+			name = BigTalkAppTests;
+			productName = BigTalkAppTests;
+			productReference = 50F3AA061D7E0387007BD33C /* BigTalkAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		50F3AA101D7E0387007BD33C /* BigTalkAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 50F3AA1E1D7E0387007BD33C /* Build configuration list for PBXNativeTarget "BigTalkAppUITests" */;
+			buildPhases = (
+				4137339D92C6D4762B0BBCBE /* [CP] Check Pods Manifest.lock */,
+				50F3AA0D1D7E0387007BD33C /* Sources */,
+				50F3AA0E1D7E0387007BD33C /* Frameworks */,
+				50F3AA0F1D7E0387007BD33C /* Resources */,
+				44BB9C965264AE38EB4DB736 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				50F3AA131D7E0387007BD33C /* PBXTargetDependency */,
+			);
+			name = BigTalkAppUITests;
+			productName = BigTalkAppUITests;
+			productReference = 50F3AA111D7E0387007BD33C /* BigTalkAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		50F3AA241D7E0517007BD33C /* BigTalkAppMessages */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 50F3AA331D7E0517007BD33C /* Build configuration list for PBXNativeTarget "BigTalkAppMessages" */;
+			buildPhases = (
+				D91209DEE7D3F9DD5FA39AB4 /* [CP] Check Pods Manifest.lock */,
+				50F3AA211D7E0517007BD33C /* Sources */,
+				50F3AA221D7E0517007BD33C /* Frameworks */,
+				50F3AA231D7E0517007BD33C /* Resources */,
+				9F2FFE2E1862C4718B6E755C /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BigTalkAppMessages;
+			productName = BigTalkAppMessages;
+			productReference = 50F3AA251D7E0517007BD33C /* BigTalkAppMessages.appex */;
+			productType = "com.apple.product-type.app-extension.messages";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AFF4879A1D6B9B5100FFBCA1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Max Rogers";
+				TargetAttributes = {
+					50F3A9EF1D7E0387007BD33C = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = R26K65253S;
+						ProvisioningStyle = Automatic;
+					};
+					50F3AA051D7E0387007BD33C = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = R26K65253S;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 50F3A9EF1D7E0387007BD33C;
+					};
+					50F3AA101D7E0387007BD33C = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = R26K65253S;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 50F3A9EF1D7E0387007BD33C;
+					};
+					50F3AA241D7E0517007BD33C = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = R26K65253S;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = AFF4879D1D6B9B5100FFBCA1 /* Build configuration list for PBXProject "BigTalk" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AFF487991D6B9B5100FFBCA1;
+			productRefGroup = AFF487A11D6B9B5100FFBCA1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				50F3A9EF1D7E0387007BD33C /* BigTalkApp */,
+				50F3AA051D7E0387007BD33C /* BigTalkAppTests */,
+				50F3AA101D7E0387007BD33C /* BigTalkAppUITests */,
+				50F3AA241D7E0517007BD33C /* BigTalkAppMessages */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		50F3A9EE1D7E0387007BD33C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50F3AA001D7E0387007BD33C /* LaunchScreen.storyboard in Resources */,
+				50F3A9FD1D7E0387007BD33C /* Assets.xcassets in Resources */,
+				50F3A9F81D7E0387007BD33C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50F3AA041D7E0387007BD33C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50F3AA0F1D7E0387007BD33C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50F3AA231D7E0517007BD33C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50F3AA2E1D7E0517007BD33C /* Assets.xcassets in Resources */,
+				50F3AA2C1D7E0517007BD33C /* MainInterface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2C116B291582D6D47A37E1D2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		4137339D92C6D4762B0BBCBE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		44BB9C965264AE38EB4DB736 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BigTalkAppUITests/Pods-BigTalkAppUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8E914BC5CD05AD79CEBB0EF6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9F2FFE2E1862C4718B6E755C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BigTalkAppMessages/Pods-BigTalkAppMessages-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C45804FE010B74C174F9A8D1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BigTalkApp/Pods-BigTalkApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C5E152CCED234B1D38AA9E51 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BigTalkApp/Pods-BigTalkApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D91209DEE7D3F9DD5FA39AB4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E00007D27662A4270391C1F1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BigTalkAppTests/Pods-BigTalkAppTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E7B91C1C7143633211F73B31 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BigTalkAppTests/Pods-BigTalkAppTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		50F3A9EC1D7E0387007BD33C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50F3A9F51D7E0387007BD33C /* ViewController.swift in Sources */,
+				50F3A9FB1D7E0387007BD33C /* BigTalkApp.xcdatamodeld in Sources */,
+				50F3A9F31D7E0387007BD33C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50F3AA021D7E0387007BD33C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50F3AA0B1D7E0387007BD33C /* BigTalkAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50F3AA0D1D7E0387007BD33C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50F3AA161D7E0387007BD33C /* BigTalkAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50F3AA211D7E0517007BD33C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50F3AA291D7E0517007BD33C /* MessagesViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		50F3AA081D7E0387007BD33C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 50F3A9EF1D7E0387007BD33C /* BigTalkApp */;
+			targetProxy = 50F3AA071D7E0387007BD33C /* PBXContainerItemProxy */;
+		};
+		50F3AA131D7E0387007BD33C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 50F3A9EF1D7E0387007BD33C /* BigTalkApp */;
+			targetProxy = 50F3AA121D7E0387007BD33C /* PBXContainerItemProxy */;
+		};
+		50F3AA311D7E0517007BD33C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 50F3AA241D7E0517007BD33C /* BigTalkAppMessages */;
+			targetProxy = 50F3AA301D7E0517007BD33C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		50F3A9F61D7E0387007BD33C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				50F3A9F71D7E0387007BD33C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		50F3A9FE1D7E0387007BD33C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				50F3A9FF1D7E0387007BD33C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		50F3AA2A1D7E0517007BD33C /* MainInterface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				50F3AA2B1D7E0517007BD33C /* Base */,
+			);
+			name = MainInterface.storyboard;
+			sourceTree = "<group>";
+		};
+		AFF487B41D6B9B5100FFBCA1 /* MainInterface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AFF487B51D6B9B5100FFBCA1 /* Base */,
+			);
+			name = MainInterface.storyboard;
+			path = ../MessagesExtension;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		50F3AA191D7E0387007BD33C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DC148415511A954D511B05D2 /* Pods-BigTalkApp.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = R26K65253S;
+				INFOPLIST_FILE = BigTalkApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.maxrogers.BigTalkApp.BigTalkApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		50F3AA1A1D7E0387007BD33C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9CC53ED2097C2C3962BF5EC0 /* Pods-BigTalkApp.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = R26K65253S;
+				INFOPLIST_FILE = BigTalkApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.maxrogers.BigTalkApp.BigTalkApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		50F3AA1C1D7E0387007BD33C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ED631434CA3A06752B8F5CF4 /* Pods-BigTalkAppTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = R26K65253S;
+				INFOPLIST_FILE = BigTalkAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.maxrogers.BigTalkApp.BigTalkAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BigTalkApp.app/BigTalkApp";
+			};
+			name = Debug;
+		};
+		50F3AA1D1D7E0387007BD33C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 879E535B6136EB14072101DB /* Pods-BigTalkAppTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = R26K65253S;
+				INFOPLIST_FILE = BigTalkAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.maxrogers.BigTalkApp.BigTalkAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BigTalkApp.app/BigTalkApp";
+			};
+			name = Release;
+		};
+		50F3AA1F1D7E0387007BD33C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 730E253589E0E2A4C2C01880 /* Pods-BigTalkAppUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = R26K65253S;
+				INFOPLIST_FILE = BigTalkAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.maxrogers.BigTalkApp.BigTalkAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = BigTalkApp;
+			};
+			name = Debug;
+		};
+		50F3AA201D7E0387007BD33C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 595C2706597FD8E378357905 /* Pods-BigTalkAppUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = R26K65253S;
+				INFOPLIST_FILE = BigTalkAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.maxrogers.BigTalkApp.BigTalkAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = BigTalkApp;
+			};
+			name = Release;
+		};
+		50F3AA341D7E0517007BD33C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AFD5AF651CEDC945110EEBC6 /* Pods-BigTalkAppMessages.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
+				DEVELOPMENT_TEAM = R26K65253S;
+				INFOPLIST_FILE = BigTalkAppMessages/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.maxrogers.BigTalkApp.BigTalkApp.BigTalkAppMessages;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		50F3AA351D7E0517007BD33C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 399DB2C1CF58D9DCB4D6CE27 /* Pods-BigTalkAppMessages.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
+				DEVELOPMENT_TEAM = R26K65253S;
+				INFOPLIST_FILE = BigTalkAppMessages/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.maxrogers.BigTalkApp.BigTalkApp.BigTalkAppMessages;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		AFF487BA1D6B9B5100FFBCA1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AFF487BB1D6B9B5100FFBCA1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		50F3AA181D7E0387007BD33C /* Build configuration list for PBXNativeTarget "BigTalkApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50F3AA191D7E0387007BD33C /* Debug */,
+				50F3AA1A1D7E0387007BD33C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		50F3AA1B1D7E0387007BD33C /* Build configuration list for PBXNativeTarget "BigTalkAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50F3AA1C1D7E0387007BD33C /* Debug */,
+				50F3AA1D1D7E0387007BD33C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		50F3AA1E1D7E0387007BD33C /* Build configuration list for PBXNativeTarget "BigTalkAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50F3AA1F1D7E0387007BD33C /* Debug */,
+				50F3AA201D7E0387007BD33C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		50F3AA331D7E0517007BD33C /* Build configuration list for PBXNativeTarget "BigTalkAppMessages" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50F3AA341D7E0517007BD33C /* Debug */,
+				50F3AA351D7E0517007BD33C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AFF4879D1D6B9B5100FFBCA1 /* Build configuration list for PBXProject "BigTalk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFF487BA1D6B9B5100FFBCA1 /* Debug */,
+				AFF487BB1D6B9B5100FFBCA1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		50F3A9F91D7E0387007BD33C /* BigTalkApp.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				50F3A9FA1D7E0387007BD33C /* BigTalkApp.xcdatamodel */,
+			);
+			currentVersion = 50F3A9FA1D7E0387007BD33C /* BigTalkApp.xcdatamodel */;
+			path = BigTalkApp.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = AFF4879A1D6B9B5100FFBCA1 /* Project object */;
+}
