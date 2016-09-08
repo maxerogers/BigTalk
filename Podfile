@@ -5,9 +5,11 @@ target 'BigTalkApp' do
   # Comment this line if you're not using Swift and don't want to use dynamic frameworks
   use_frameworks!
   
-  pod "SugarRecord"
-  pod "SugarRecord/CoreData"
-  
+#  pod "SugarRecord"
+#  pod "SugarRecord/CoreData"
+
+    pod 'Toast', '~> 3.0'
+
   # Pods for BigTalkApp
 
   target 'BigTalkAppTests' do
