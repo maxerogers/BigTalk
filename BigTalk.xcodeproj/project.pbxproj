@@ -28,9 +28,6 @@
 		AF3DED7D1D80A50F00530290 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF3DED7A1D80A50F00530290 /* DataManager.swift */; };
 		AF3DED7E1D80A50F00530290 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF3DED7A1D80A50F00530290 /* DataManager.swift */; };
 		AF53AFBE1D834D2A00DE09DE /* HamHornTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFF487C41D6B9F6400FFBCA1 /* HamHornTableViewCell.swift */; };
-		AF53AFC11D834D3F00DE09DE /* CarrotBot.png in Resources */ = {isa = PBXBuildFile; fileRef = AF4C53351D6CFC8E0014A892 /* CarrotBot.png */; };
-		AF53AFC21D834D4200DE09DE /* nyancat.gif in Resources */ = {isa = PBXBuildFile; fileRef = AF4C53371D6CFFCA0014A892 /* nyancat.gif */; };
-		AF53AFC31D834D4700DE09DE /* spongebob_computer_technology.gif in Resources */ = {isa = PBXBuildFile; fileRef = AF4C53311D6CE96C0014A892 /* spongebob_computer_technology.gif */; };
 		AF53AFC71D83532400DE09DE /* MessagesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFF487B21D6B9B5100FFBCA1 /* MessagesViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -100,21 +97,11 @@
 		879E535B6136EB14072101DB /* Pods-BigTalkAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BigTalkAppTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BigTalkAppTests/Pods-BigTalkAppTests.release.xcconfig"; sourceTree = "<group>"; };
 		9CC53ED2097C2C3962BF5EC0 /* Pods-BigTalkApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BigTalkApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-BigTalkApp/Pods-BigTalkApp.release.xcconfig"; sourceTree = "<group>"; };
 		AF3DED7A1D80A50F00530290 /* DataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
-		AF4C53311D6CE96C0014A892 /* spongebob_computer_technology.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = spongebob_computer_technology.gif; sourceTree = "<group>"; };
-		AF4C53351D6CFC8E0014A892 /* CarrotBot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CarrotBot.png; sourceTree = "<group>"; };
-		AF4C53371D6CFFCA0014A892 /* nyancat.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = nyancat.gif; sourceTree = "<group>"; };
 		AFD5AF651CEDC945110EEBC6 /* Pods-BigTalkAppMessages.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BigTalkAppMessages.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BigTalkAppMessages/Pods-BigTalkAppMessages.debug.xcconfig"; sourceTree = "<group>"; };
 		AFF487AF1D6B9B5100FFBCA1 /* Messages.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Messages.framework; path = System/Library/Frameworks/Messages.framework; sourceTree = SDKROOT; };
 		AFF487B21D6B9B5100FFBCA1 /* MessagesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MessagesViewController.swift; path = ../MessagesExtension/MessagesViewController.swift; sourceTree = "<group>"; };
-		AFF487B51D6B9B5100FFBCA1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
-		AFF487B71D6B9B5100FFBCA1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../MessagesExtension/Assets.xcassets; sourceTree = "<group>"; };
-		AFF487B91D6B9B5100FFBCA1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = ../MessagesExtension/Info.plist; sourceTree = "<group>"; };
 		AFF487C31D6B9B6E00FFBCA1 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		AFF487C41D6B9F6400FFBCA1 /* HamHornTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HamHornTableViewCell.swift; path = ../MessagesExtension/HamHornTableViewCell.swift; sourceTree = "<group>"; };
-		AFF487C71D6BA36600FFBCA1 /* lok_tar.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = lok_tar.wav; sourceTree = "<group>"; };
-		AFF487C91D6BA4B500FFBCA1 /* ham.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = ham.wav; sourceTree = "<group>"; };
-		AFF487CA1D6BA4B500FFBCA1 /* rapAirHorn.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = rapAirHorn.mp3; sourceTree = "<group>"; };
-		AFF487CB1D6BA4B500FFBCA1 /* sadTrombone.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = sadTrombone.mp3; sourceTree = "<group>"; };
 		DB027C8949230D0FF9447ADE /* Pods_BigTalkAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BigTalkAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC148415511A954D511B05D2 /* Pods-BigTalkApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BigTalkApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BigTalkApp/Pods-BigTalkApp.debug.xcconfig"; sourceTree = "<group>"; };
 		ED631434CA3A06752B8F5CF4 /* Pods-BigTalkAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BigTalkAppTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BigTalkAppTests/Pods-BigTalkAppTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -193,12 +180,7 @@
 		50F3AA271D7E0517007BD33C /* BigTalkAppMessages */ = {
 			isa = PBXGroup;
 			children = (
-				AF4C532E1D6CE9300014A892 /* Gifs */,
-				AFF487C61D6BA35700FFBCA1 /* Sounds */,
 				AFF487B21D6B9B5100FFBCA1 /* MessagesViewController.swift */,
-				AFF487B41D6B9B5100FFBCA1 /* MainInterface.storyboard */,
-				AFF487B71D6B9B5100FFBCA1 /* Assets.xcassets */,
-				AFF487B91D6B9B5100FFBCA1 /* Info.plist */,
 				AFF487C41D6B9F6400FFBCA1 /* HamHornTableViewCell.swift */,
 				50F3AA2A1D7E0517007BD33C /* MainInterface.storyboard */,
 				50F3AA2D1D7E0517007BD33C /* Assets.xcassets */,
@@ -220,17 +202,6 @@
 				595C2706597FD8E378357905 /* Pods-BigTalkAppUITests.release.xcconfig */,
 			);
 			name = Pods;
-			sourceTree = "<group>";
-		};
-		AF4C532E1D6CE9300014A892 /* Gifs */ = {
-			isa = PBXGroup;
-			children = (
-				AF4C53371D6CFFCA0014A892 /* nyancat.gif */,
-				AF4C53351D6CFC8E0014A892 /* CarrotBot.png */,
-				AF4C53311D6CE96C0014A892 /* spongebob_computer_technology.gif */,
-			);
-			name = Gifs;
-			path = ../MessagesExtension;
 			sourceTree = "<group>";
 		};
 		AFF487991D6B9B5100FFBCA1 = {
@@ -268,18 +239,6 @@
 				DB027C8949230D0FF9447ADE /* Pods_BigTalkAppUITests.framework */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		AFF487C61D6BA35700FFBCA1 /* Sounds */ = {
-			isa = PBXGroup;
-			children = (
-				AFF487C91D6BA4B500FFBCA1 /* ham.wav */,
-				AFF487CA1D6BA4B500FFBCA1 /* rapAirHorn.mp3 */,
-				AFF487CB1D6BA4B500FFBCA1 /* sadTrombone.mp3 */,
-				AFF487C71D6BA36600FFBCA1 /* lok_tar.wav */,
-			);
-			name = Sounds;
-			path = ../MessagesExtension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -451,9 +410,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AF53AFC11D834D3F00DE09DE /* CarrotBot.png in Resources */,
-				AF53AFC21D834D4200DE09DE /* nyancat.gif in Resources */,
-				AF53AFC31D834D4700DE09DE /* spongebob_computer_technology.gif in Resources */,
 				50F3AA2E1D7E0517007BD33C /* Assets.xcassets in Resources */,
 				50F3AA2C1D7E0517007BD33C /* MainInterface.storyboard in Resources */,
 			);
@@ -697,15 +653,6 @@
 				50F3AA2B1D7E0517007BD33C /* Base */,
 			);
 			name = MainInterface.storyboard;
-			sourceTree = "<group>";
-		};
-		AFF487B41D6B9B5100FFBCA1 /* MainInterface.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				AFF487B51D6B9B5100FFBCA1 /* Base */,
-			);
-			name = MainInterface.storyboard;
-			path = ../MessagesExtension;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
