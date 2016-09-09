@@ -23,7 +23,6 @@ class ViewController: UITableViewController {
         // Dispose of any resources that can be recreated.
     }
 
-
 }
 
 //UITableViewDelegate
@@ -46,4 +45,5 @@ extension ViewController {
         let cell = tableView.dequeueReusableCell(withIdentifier: "Cell") ?? backupCell
         cell.textLabel?.text = dataManager.currentConvos?[indexPath.row] ?? ""
         return cell
-    }}
+    }
+}

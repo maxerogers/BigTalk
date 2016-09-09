@@ -19,7 +19,6 @@
 		50F3AA0B1D7E0387007BD33C /* BigTalkAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50F3AA0A1D7E0387007BD33C /* BigTalkAppTests.swift */; };
 		50F3AA161D7E0387007BD33C /* BigTalkAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50F3AA151D7E0387007BD33C /* BigTalkAppUITests.swift */; };
 		50F3AA261D7E0517007BD33C /* Messages.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFF487AF1D6B9B5100FFBCA1 /* Messages.framework */; };
-		50F3AA291D7E0517007BD33C /* MessagesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50F3AA281D7E0517007BD33C /* MessagesViewController.swift */; };
 		50F3AA2C1D7E0517007BD33C /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50F3AA2A1D7E0517007BD33C /* MainInterface.storyboard */; };
 		50F3AA2E1D7E0517007BD33C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 50F3AA2D1D7E0517007BD33C /* Assets.xcassets */; };
 		50F3AA321D7E0517007BD33C /* BigTalkAppMessages.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 50F3AA251D7E0517007BD33C /* BigTalkAppMessages.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
@@ -28,6 +27,11 @@
 		AF3DED7C1D80A50F00530290 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF3DED7A1D80A50F00530290 /* DataManager.swift */; };
 		AF3DED7D1D80A50F00530290 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF3DED7A1D80A50F00530290 /* DataManager.swift */; };
 		AF3DED7E1D80A50F00530290 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF3DED7A1D80A50F00530290 /* DataManager.swift */; };
+		AF53AFBE1D834D2A00DE09DE /* HamHornTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFF487C41D6B9F6400FFBCA1 /* HamHornTableViewCell.swift */; };
+		AF53AFC11D834D3F00DE09DE /* CarrotBot.png in Resources */ = {isa = PBXBuildFile; fileRef = AF4C53351D6CFC8E0014A892 /* CarrotBot.png */; };
+		AF53AFC21D834D4200DE09DE /* nyancat.gif in Resources */ = {isa = PBXBuildFile; fileRef = AF4C53371D6CFFCA0014A892 /* nyancat.gif */; };
+		AF53AFC31D834D4700DE09DE /* spongebob_computer_technology.gif in Resources */ = {isa = PBXBuildFile; fileRef = AF4C53311D6CE96C0014A892 /* spongebob_computer_technology.gif */; };
+		AF53AFC71D83532400DE09DE /* MessagesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFF487B21D6B9B5100FFBCA1 /* MessagesViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -87,7 +91,6 @@
 		50F3AA151D7E0387007BD33C /* BigTalkAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BigTalkAppUITests.swift; sourceTree = "<group>"; };
 		50F3AA171D7E0387007BD33C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		50F3AA251D7E0517007BD33C /* BigTalkAppMessages.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = BigTalkAppMessages.appex; sourceTree = BUILT_PRODUCTS_DIR; };
-		50F3AA281D7E0517007BD33C /* MessagesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessagesViewController.swift; sourceTree = "<group>"; };
 		50F3AA2B1D7E0517007BD33C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
 		50F3AA2D1D7E0517007BD33C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		50F3AA2F1D7E0517007BD33C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -97,11 +100,7 @@
 		879E535B6136EB14072101DB /* Pods-BigTalkAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BigTalkAppTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BigTalkAppTests/Pods-BigTalkAppTests.release.xcconfig"; sourceTree = "<group>"; };
 		9CC53ED2097C2C3962BF5EC0 /* Pods-BigTalkApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BigTalkApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-BigTalkApp/Pods-BigTalkApp.release.xcconfig"; sourceTree = "<group>"; };
 		AF3DED7A1D80A50F00530290 /* DataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
-		AF4C532A1D6CC8D00014A892 /* MessagesExtension-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "MessagesExtension-Bridging-Header.h"; path = "../MessagesExtension/MessagesExtension-Bridging-Header.h"; sourceTree = "<group>"; };
-		AF4C532B1D6CC8D00014A892 /* UIImage+animatedGIF.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+animatedGIF.h"; sourceTree = "<group>"; };
-		AF4C532C1D6CC8D00014A892 /* UIImage+animatedGIF.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+animatedGIF.m"; sourceTree = "<group>"; };
 		AF4C53311D6CE96C0014A892 /* spongebob_computer_technology.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = spongebob_computer_technology.gif; sourceTree = "<group>"; };
-		AF4C53331D6CEA1B0014A892 /* GifViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GifViewController.swift; path = ../MessagesExtension/GifViewController.swift; sourceTree = "<group>"; };
 		AF4C53351D6CFC8E0014A892 /* CarrotBot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CarrotBot.png; sourceTree = "<group>"; };
 		AF4C53371D6CFFCA0014A892 /* nyancat.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = nyancat.gif; sourceTree = "<group>"; };
 		AFD5AF651CEDC945110EEBC6 /* Pods-BigTalkAppMessages.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BigTalkAppMessages.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BigTalkAppMessages/Pods-BigTalkAppMessages.debug.xcconfig"; sourceTree = "<group>"; };
@@ -195,16 +194,12 @@
 			isa = PBXGroup;
 			children = (
 				AF4C532E1D6CE9300014A892 /* Gifs */,
-				AF4C532A1D6CC8D00014A892 /* MessagesExtension-Bridging-Header.h */,
-				AF4C53291D6CC89B0014A892 /* Helpers */,
 				AFF487C61D6BA35700FFBCA1 /* Sounds */,
 				AFF487B21D6B9B5100FFBCA1 /* MessagesViewController.swift */,
 				AFF487B41D6B9B5100FFBCA1 /* MainInterface.storyboard */,
 				AFF487B71D6B9B5100FFBCA1 /* Assets.xcassets */,
 				AFF487B91D6B9B5100FFBCA1 /* Info.plist */,
 				AFF487C41D6B9F6400FFBCA1 /* HamHornTableViewCell.swift */,
-				AF4C53331D6CEA1B0014A892 /* GifViewController.swift */,
-				50F3AA281D7E0517007BD33C /* MessagesViewController.swift */,
 				50F3AA2A1D7E0517007BD33C /* MainInterface.storyboard */,
 				50F3AA2D1D7E0517007BD33C /* Assets.xcassets */,
 				50F3AA2F1D7E0517007BD33C /* Info.plist */,
@@ -225,16 +220,6 @@
 				595C2706597FD8E378357905 /* Pods-BigTalkAppUITests.release.xcconfig */,
 			);
 			name = Pods;
-			sourceTree = "<group>";
-		};
-		AF4C53291D6CC89B0014A892 /* Helpers */ = {
-			isa = PBXGroup;
-			children = (
-				AF4C532B1D6CC8D00014A892 /* UIImage+animatedGIF.h */,
-				AF4C532C1D6CC8D00014A892 /* UIImage+animatedGIF.m */,
-			);
-			name = Helpers;
-			path = ../MessagesExtension;
 			sourceTree = "<group>";
 		};
 		AF4C532E1D6CE9300014A892 /* Gifs */ = {
@@ -466,6 +451,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AF53AFC11D834D3F00DE09DE /* CarrotBot.png in Resources */,
+				AF53AFC21D834D4200DE09DE /* nyancat.gif in Resources */,
+				AF53AFC31D834D4700DE09DE /* spongebob_computer_technology.gif in Resources */,
 				50F3AA2E1D7E0517007BD33C /* Assets.xcassets in Resources */,
 				50F3AA2C1D7E0517007BD33C /* MainInterface.storyboard in Resources */,
 			);
@@ -660,7 +648,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				50F3AA291D7E0517007BD33C /* MessagesViewController.swift in Sources */,
+				AF53AFC71D83532400DE09DE /* MessagesViewController.swift in Sources */,
+				AF53AFBE1D834D2A00DE09DE /* HamHornTableViewCell.swift in Sources */,
 				AF3DED7E1D80A50F00530290 /* DataManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -825,6 +814,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.maxrogers.BigTalkApp.BigTalkApp.BigTalkAppMessages;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_INSTALL_OBJC_HEADER = NO;
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -840,6 +830,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.maxrogers.BigTalkApp.BigTalkApp.BigTalkAppMessages;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_INSTALL_OBJC_HEADER = NO;
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
