@@ -11,7 +11,7 @@ import CoreData
 
 class DataManager {
     static let sharedInstance = DataManager()
-    static let suiteName = "group.com.yourdomain.YourAwesomeGroup"
+    static let suiteName = "group.com.maxrogers.BigTalk"
     var currentConvos: [String]?
 //    lazy var applicationDocumentsDirectory: NSURL? = {
 //        return NSFileManager.defaultManager().containerURLForSecurityApplicationGroupIdentifier("group.com.yourdomain.YourAwesomeGroup") ?? nil
@@ -30,8 +30,20 @@ class DataManager {
     }
     
     func seedConvoStarters() {
-        sharedDefaults()?.set(["a","b","c"], forKey: "abc")
-        currentConvos = sharedDefaults()?.array(forKey: "abc") as? [String] ?? []
+//        sharedDefaults()?.set(["a","b","c"], forKey: "abc")
+//        currentConvos = sharedDefaults()?.array(forKey: "abc") as? [String] ?? []
+        
+        var myDict: NSDictionary?
+        if let path = Bundle.main.path(forResource: "convostarters", ofType: "plist")
+        {
+            myDict = NSDictionary(contentsOfFile: path)
+        }
+        if let dict = myDict {
+            currentConvos = dict.object(forKey: "root") as? [String]
+        } else {
+            currentConvos = []
+        }
+        
     }
 
 }
