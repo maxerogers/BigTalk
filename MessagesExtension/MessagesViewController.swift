@@ -29,7 +29,6 @@ class MessagesViewController: MSMessagesAppViewController {
 extension MessagesViewController: UITableViewDelegate {
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         let message = currentConvos?[indexPath.row] ?? ""
-        self.activeConversation?.insert(MSMessage(), completionHandler: nil)
         self.activeConversation?.insertText(message) { (error) in
             print(error?.localizedDescription)
         }
