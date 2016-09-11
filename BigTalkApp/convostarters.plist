@@ -1,14 +1,281 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
-<!--
-   convostarters.plist
-   BigTalk
-
-   Created by Max Rogers on 9/10/16.
-   Copyright (c) 2016 Max Rogers. All rights reserved.
--->
-<plist version="1.0">
-    <dict>
-    
-    </dict>
-</plist>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd"> 
+<plist version="1.0"> 
+<dict> 
+<key>root</key> 
+<array> 
+<string>What was the last funny video you saw?</string>
+<string>What do you do to get rid of stress?</string>
+<string>What is something you are obsessed with?</string>
+<string>Who is your favorite entertainer (comedian, musician, actor, etc.)?</string>
+<string>What’s your favorite way to waste time?</string>
+<string>Do you have any pets? What are their names?</string>
+<string>Where did you go last weekend? What did you do?</string>
+<string>What are you going to do this weekend?</string>
+<string>What is something that is popular now that annoys you?</string>
+<string>What did you do on your last vacation?</string>
+<string>What was the last time you worked incredibly hard?</string>
+<string>Are you very active of do you prefer to just relax in your free time?</string>
+<string>What do you do when you hang out with your friends?</string>
+<string>Who is your oldest friend? Where did you meet them?</string>
+<string>What’s the best / worst thing about your work / school?</string>
+<string>If you had intro music, what song would it be? Why?</string>
+<string>What were you really into when you were a kid?</string>
+<string>If you could have any animal as a pet, what animal would you choose?</string>
+<string>What three words best describe you?</string>
+<string>What would be your perfect weekend?</string>
+<string>What do you think of tattoos? Do you have any?</string>
+<string>What’s your favorite number? Why?</string>
+<string>What’s the most useful thing you own?</string>
+<string>Have you ever saved an animal’s life? How about a person’s life?</string>
+<string>If you opened a business, what kind of business would it be?</string>
+<string>Are you a very organized person?</string>
+<string>Have you ever spoke in front of a large group of people? How did it go?</string>
+<string>What is the strangest dream you have ever had?</string>
+<string>What is a controversial opinion you have?</string>
+<string>Who in your life brings you the most joy?</string>
+<string>Who had the biggest impact on the person you have become?</string>
+<string>What is the most annoying habit someone can have?</string>
+<string>Where is the most beautiful place you have been?</string>
+<string>Where do you spend most of your free time / day?</string>
+<string>Who was your best friend in elementary school?</string>
+<string>How often do you stay up past 3 a.m.?</string>
+<string>What’s your favorite season? Why?</string>
+<string>Which is more important, a great car or a great house? Why?</string>
+<string>What animal or insect do you wish humans could eradicate?</string>
+<string>Where is the most beautiful place near where you live?</string>
+<string>What do you bring with you everywhere you go?</string>
+<string>How much time do you spend on the internet? What do you usually do?</string>
+<string>What is the most disgusting habit some people have?</string>
+<string>Where and when was the most amazing sunset you have ever seen?</string>
+<string>Which recent news story is the most interesting?</string>
+<string>Where is the worst place you have been stuck for a long time?</string>
+<string>If you had to change your name, what would your new name be?</string>
+<string>What is something that really annoys you but doesn’t bother most people?</string>
+<string>What word or saying from the past do you think should come back?</string>
+<string>How should success be measured? By that measurement, who is the most successful person you know?</string>
+<string>What is your guilty pleasure?</string>
+<string>Was there ever an event in your life that defied explanation?</string>
+<string>If you could learn the answer to one question about your future, what would the question be?</string>
+<string>Has anyone ever saved your life?</string>
+<string>What benefit do you bring to the group when you hang out with friends?</string>
+<string>How often do you curse?</string>
+<string>What trends did you follow when you were younger?</string>
+<string>What do you fear is hiding in the dark?</string>
+<string>What was the best time period of your life? What do you think will be the best time period of your entire life?</string>
+<string>What do you do to improve your mood when you are in a bad mood?</string>
+<string>What is the silliest fear you have?</string>
+<string>What are some things you want to accomplish before you die?</string>
+<string>What is the best room in your house? Why?</string>
+<string>Who is someone who is popular now that you really like? Why do you like them so much?</string>
+<string>Where is the best place to take a date?</string>
+<string>What smell brings back great memories?</string>
+<string>How often do you help others? Who do you help? How do you help?</string>
+<string>What are you best at?</string>
+<string>What makes you nervous?</string>
+<string>Who, besides your parents, had the biggest impact on your life?</string>
+<string>What weird or useless talent do you have?</string>
+<string>What are some strange beliefs that some people have?</string>
+<string>Who would be the worst person to be stuck in an elevator with? How about the best person to be stuck in an elevator with?</string>
+<string>What’s the funniest TV series you have seen?</string>
+<string>Which TV show do you want your life to be like?</string>
+<string>If you could bring back one TV show that was cancelled, which one would you bring back?</string>
+<string>How have TV shows changed over the years?</string>
+<string>What’s the best sitcom past or present?</string>
+<string>What’s the best show currently on TV?</string>
+<string>What do you think about game shows? Do you have a favorite one?</string>
+<string>What’s the most underrated or overrated TV show?</string>
+<string>What do you think about reality TV? Why is it so popular?</string>
+<string>Do you like reality TV shows? Why or why not? If so, which ones?</string>
+<string>What will be the future of TV shows?</string>
+<string>How often do you binge watch shows?</string>
+<string>What cartoons did you watch as a child?</string>
+<string>What was the last movie you watched? How was it?</string>
+<string>Do you prefer to watch movies in the theater or in the comfort of your own home?</string>
+<string>What’s the worst movie you have seen recently?</string>
+<string>What’s the strangest movie you have ever seen?</string>
+<string>What is the most overrated movie?</string>
+<string>What’s your favorite genre of movie?</string>
+<string>What movie scene choked you up the most?</string>
+<string>Do you like documentaries? Why / why not?</string>
+<string>When was the last time you went to a movie theater?</string>
+<string>Do movies have the same power as books to change the world?</string>
+<string>Which do you prefer? Books or movies?</string>
+<string>Do you like horror movies? Why or why not?</string>
+<string>What was the last book you read?</string>
+<string>What book has had the biggest impact on your life?</string>
+<string>What was your favorite book as a child?</string>
+<string>Do you prefer physical books or ebooks?</string>
+<string>What is the longest book you have read?</string>
+<string>What was the worst book you had to read for school? How about the best book you had to read for school?</string>
+<string>What book genres do you like to read?</string>
+<string>Do you prefer fiction or nonfiction books?</string>
+<string>What book has influenced you the most?</string>
+<string>What book has had the biggest effect on the modern world?</string>
+<string>Do you think people read more or less books now than 50 years ago?</string>
+<string>How fast do you read?</string>
+<string>How often do you go to the library?</string>
+<string>Now that indie publishing has become easier, have books gotten better or worse?</string>
+<string>What song always puts you in a good mood?</string>
+<string>Which do you prefer, popular music or relatively unknown music?</string>
+<string>What was the last song you listened to?</string>
+<string>What is your favorite movie soundtrack?</string>
+<string>Are there any songs that always bring a tear to your eye?</string>
+<string>Do you like going to concerts? Why or why not? What was the last concert you went to?</string>
+<string>Who was the first band or musician you were really into? Do you still like them?</string>
+<string>Records, tapes, CDs, MP3s. Which did you grow up with? What is good and bad about each?</string>
+<string>What bands or types of music do you listen to when you exercise?</string>
+<string>Do you like classical music?</string>
+<string>What’s the best way to discover new music?</string>
+<string>How has technology changed the music industry?</string>
+<string>What are the three best apps on your phone?</string>
+<string>What’s the most addictive mobile game you have played?</string>
+<string>An app mysteriously appears on your phone that does something amazing. What does it do?</string>
+<string>How many apps do you have on your phone?</string>
+<string>What is the most annoying app you have tried?</string>
+<string>Which app seemed like magic the first time you used it?</string>
+<string>What is the strangest app you have heard of or tried?</string>
+<string>Which app has helped society the most? Which one has hurt society the most?</string>
+<string>What is the most useful app on your phone?</string>
+<string>What apps have changed your life a lot?</string>
+<string>What do app makers do that really annoys you?</string>
+<string>How often do you check your phone?</string>
+<string>Do you always have to have the latest phone?</string>
+<string>What was your first smart phone? How did you feel when you got it?</string>
+<string>What is the most annoying thing about your phone?</string>
+<string>What kind of case do you have for your phone? Why did you choose it?</string>
+<string>Do you text more or call more? Why?</string>
+<string>What will phones be like in 10 years?</string>
+<string>Do you experience phantom vibration? (Feeling your phone vibrate even though it didn’t.)</string>
+<string>How do you feel if you accidentally leave your phone at home?</string>
+<string>What do you wish your phone could do?</string>
+<string>What sports do you like to watch?</string>
+<string>Who are some of your favorite athletes?</string>
+<string>Which sports do you like to play?</string>
+<string>Which sport is the most exciting to watch? Which is the most boring to watch?</string>
+<string>Do athletes deserve the high salaries they receive? Why or why not?</string>
+<string>What is the hardest sport to excel at?</string>
+<string>Who are the 3 greatest athletes of all time?</string>
+<string>What defines a sport? Is fishing a sport? How about video game tournaments?</string>
+<string>Why do you think sports are common across almost all cultures present and past?</string>
+<string>What do you think the oldest sport still being played is?</string>
+<string>How much time do you spend watching sports in a week?</string>
+<string>Do you play sports video games? Which ones? Is playing the video game or sport more fun? Why?</string>
+<string>What is the worst restaurant you have ever eaten at?</string>
+<string>What restaurant do you eat at most?</string>
+<string>What’s the worst fast food restaurant?</string>
+<string>What is the best restaurant in your area?</string>
+<string>Would you eat at a restaurant that was really dirty if the food was amazing?</string>
+<string>What kind of interior do you like a restaurant to have?</string>
+<string>If you opened a restaurant, what kind of food would you serve?</string>
+<string>What was your favorite restaurant when you were in university? How about when you were a child?</string>
+<string>What is the strangest themed restaurant you have heard of?</string>
+<string>What is the fanciest restaurant you have eaten at?</string>
+<string>What is the most disgusting thing you have heard about that happened at a restaurant?</string>
+<string>Have you traveled to any different countries? Which ones?</string>
+<string>Where is the most relaxing place you have been?</string>
+<string>Where is the most awe inspiring place you have been?</string>
+<string>Do you prefer traveling alone or with a group?</string>
+<string>What do you think of tour group packages?</string>
+<string>Where would you like to travel next?</string>
+<string>What was the most over hyped place you’ve traveled to?</string>
+<string>What’s the best way to travel? (Plane, car, train, etc.)</string>
+<string>What’s the best thing about traveling? How about the worst thing?</string>
+<string>How do you think traveling to a lot of different countries changes a person?</string>
+<string>What is the longest plane trip you have taken?</string>
+<string>What do you think of stay-cations? (Vacationing and seeing tourist attractions where you live.)</string>
+<string>Do you prefer to go off the beaten path when you travel?</string>
+<string>Where do you get your recommendations for what to do and where to stay when you travel?</string>
+<string>What is the worst hotel you have stayed at? How about the best hotel?</string>
+<string>What is your favorite piece of technology that you own?</string>
+<string>What piece of technology is really frustrating to use?</string>
+<string>What was the best invention of the last 50 years?</string>
+<string>Does technology simplify life or make it more complicated?</string>
+<string>Which emerging technology are you most excited about?</string>
+<string>What problems will technology solve in the next 5 years? What problems will it create?</string>
+<string>Will technology save the human race or destroy it?</string>
+<string>What piece of technology would look like magic or a miracle to people in medieval Europe?</string>
+<string>Can you think of any technology that has only made the world worse? How about a piece of technology that has only made the world better?</string>
+<string>What technology from a science fiction movie would you most like to have?</string>
+<string>What scifi movie or book would you like the future to be like?</string>
+<string>What do you think the next big technological advance will be?</string>
+<string>Do you care about fashion? What style of clothes do you usually wear?</string>
+<string>What is the best pair of shoes you have ever owned? Why were they so good?</string>
+<string>What is your favorite shirt?</string>
+<string>What is the most embarrassing piece of clothing you own?</string>
+<string>Does fashion help society in any way?</string>
+<string>What is a fashion trend you are really glad went away?</string>
+<string>Who do you think has the biggest impact on fashion trends: actors and actresses, musicians, fashion designers, or consumers?</string>
+<string>What old trend is coming back these days?</string>
+<string>If you didn’t care at all what people thought of you, what clothes would you wear?</string>
+<string>What is the most comfortable piece of clothing you own?</string>
+<string>How do clothes change how the opposite sex views a person?</string>
+<string>What is the craziest, most outrageous thing you want to achieve?</string>
+<string>What are some goals you have already achieved?</string>
+<string>What personal goals do you have?</string>
+<string>What do you hope to achieve in your professional life?</string>
+<string>Have your parents influenced what goals you have?</string>
+<string>Do you usually achieve goals you set? Why or why not?</string>
+<string>What is the best way to stay motivated and complete goals?</string>
+<string>What are some goals you have failed to accomplish?</string>
+<string>When do you want to retire? What do you want to do when you retire?</string>
+<string>What are your goals for the next two years?</string>
+<string>How have your goals changed over your life?</string>
+<string>How much do you plan for the future?</string>
+<string>How do you plan to make the world a better place?</string>
+<string>What’s the most refreshing thing on a hot summer day?</string>
+<string>What’s the best thing to do on a cold winter day?</string>
+<string>Where is the nicest place you have been to in fall?</string>
+<string>What is your favorite thing to eat or drink in winter?</string>
+<string>Do you prefer summer or winter activities?</string>
+<string>What do you like to do in spring?</string>
+<string>Did your family take seasonal vacations?</string>
+<string>Do you feel like fall and spring are getting shorter?</string>
+<string>Which season are you most active in?</string>
+<string>Is it better to live where there are four seasons or where one season takes up most of the year?</string>
+<string>If you could make a holiday, what would it be like? What traditions would it have? What would people eat on your holiday?</string>
+<string>What is the biggest holiday for your family?</string>
+<string>Do you wish there were more or less holidays? Why?</string>
+<string>If you had to get rid of a holiday, which would you get rid of? Why?</string>
+<string>What is your favorite holiday?</string>
+<string>What kinds of food do you usually eat on your favorite holiday?</string>
+<string>Does having a day off for a holiday increase or decrease productivity at work?</string>
+<string>What holidays have been over commercialized?</string>
+<string>If some of the lesser known holidays were commercialized, what would the commercialization look like?</string>
+<string>What do you know about the history of some holidays?</string>
+<string>What are some good and bad things about the education system in your country?</string>
+<string>What do you think of online education?</string>
+<string>How can governments make education more efficient?</string>
+<string>What do you think of standardized tests?</string>
+<string>How can technology improve education? Can it hurt education?</string>
+<string>Are bigger or small schools better?</string>
+<string>Is teaching a skill that can be taught?</string>
+<string>What will the future of education be?</string>
+<string>What do you think of homeschooling?</string>
+<string>How has the education you received changed your life?</string>
+<string>What or who has taught you most of the information you use on a regular basis?</string>
+<string>What is your favorite food?</string>
+<string>Do you like spicy food? Why or why not? What is the spiciest thing you have ever eaten?</string>
+<string>What foods do you absolutely hate?</string>
+<string>What food do you know you shouldn’t eat but can’t help yourself?</string>
+<string>Does government have a place in regulating food? To what extent should government regulate food?</string>
+<string>When was the last time you had a food fight?</string>
+<string>What do you get every time you go grocery shopping?</string>
+<string>If your life was a meal, what would kind of meal would it be?</string>
+<string>What do you think of buffets?</string>
+<string>What would you want your last meal to be if you were on death row?</string>
+<string>What food looks disgusting but tastes delicious?</string>
+<string>Time freezes for everyone but you for one day. What do you do?</string>
+<string>If you could call up anyone in the world and have a one hour conversation, who would you call?</string>
+<string>You have to relive one day of your life forever. Which day do you choose?</string>
+<string>If your mind was an island, what would it look like?</string>
+<string>What flavor of ice cream do you wish existed?</string>
+<string>What does your own personal hell look like? How about your own personal heaven?</string>
+<string>A portal to another world opens in front of you. You don’t know how long it will stay open or if you’ll be able to get back after you go through. What do you do?</string>
+<string>If you had a personal mascot, what would your mascot be?</string>
+<string>You find a remote that can rewind, fast forward, stop and start time. What do you do with it?</string>
+<string>If you were a king / queen, what would your throne look like?</string>
+<string>If you were on the run from the police for a crime you didn’t commit, where would you go?</string>
+</array> 
+</dict> 
+</plist> 
