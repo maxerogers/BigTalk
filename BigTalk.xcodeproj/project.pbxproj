@@ -22,6 +22,8 @@
 		50F3AA2C1D7E0517007BD33C /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50F3AA2A1D7E0517007BD33C /* MainInterface.storyboard */; };
 		50F3AA2E1D7E0517007BD33C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 50F3AA2D1D7E0517007BD33C /* Assets.xcassets */; };
 		50F3AA321D7E0517007BD33C /* BigTalkAppMessages.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 50F3AA251D7E0517007BD33C /* BigTalkAppMessages.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		50FB84B71D848A9A00C635DC /* BigTalkCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50FB84B61D848A9A00C635DC /* BigTalkCell.swift */; };
+		50FB84B81D848A9A00C635DC /* BigTalkCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50FB84B61D848A9A00C635DC /* BigTalkCell.swift */; };
 		A0971650E431EC4E1D6D2403 /* Pods_BigTalkAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB027C8949230D0FF9447ADE /* Pods_BigTalkAppUITests.framework */; };
 		AF3DED7B1D80A50F00530290 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF3DED7A1D80A50F00530290 /* DataManager.swift */; };
 		AF3DED7C1D80A50F00530290 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF3DED7A1D80A50F00530290 /* DataManager.swift */; };
@@ -93,6 +95,7 @@
 		50F3AA2B1D7E0517007BD33C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
 		50F3AA2D1D7E0517007BD33C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		50F3AA2F1D7E0517007BD33C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		50FB84B61D848A9A00C635DC /* BigTalkCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BigTalkCell.swift; sourceTree = "<group>"; };
 		595C2706597FD8E378357905 /* Pods-BigTalkAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BigTalkAppUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BigTalkAppUITests/Pods-BigTalkAppUITests.release.xcconfig"; sourceTree = "<group>"; };
 		6A7C307C525BBBB7015D61DD /* Pods_BigTalkAppMessages.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BigTalkAppMessages.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		730E253589E0E2A4C2C01880 /* Pods-BigTalkAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BigTalkAppUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BigTalkAppUITests/Pods-BigTalkAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -161,6 +164,7 @@
 				AF3DED7A1D80A50F00530290 /* DataManager.swift */,
 				AF71C10C1D84702C0065D20C /* convostarters.plist */,
 				AF71C10F1D84747A0065D20C /* convostarter_scrapper.rb */,
+				50FB84B61D848A9A00C635DC /* BigTalkCell.swift */,
 			);
 			path = BigTalkApp;
 			sourceTree = "<group>";
@@ -586,6 +590,7 @@
 				50F3A9F51D7E0387007BD33C /* ViewController.swift in Sources */,
 				AF3DED7B1D80A50F00530290 /* DataManager.swift in Sources */,
 				50F3A9FB1D7E0387007BD33C /* BigTalkApp.xcdatamodeld in Sources */,
+				50FB84B71D848A9A00C635DC /* BigTalkCell.swift in Sources */,
 				50F3A9F31D7E0387007BD33C /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -614,6 +619,7 @@
 			files = (
 				AF53AFC71D83532400DE09DE /* MessagesViewController.swift in Sources */,
 				AF53AFBE1D834D2A00DE09DE /* HamHornTableViewCell.swift in Sources */,
+				50FB84B81D848A9A00C635DC /* BigTalkCell.swift in Sources */,
 				AF3DED7E1D80A50F00530290 /* DataManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

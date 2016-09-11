@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11198.2" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="35C-ha-qBM">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="35C-ha-qBM">
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
@@ -16,27 +16,28 @@
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="hamhorn" id="z0X-gv-Ys2" customClass="HamHornTableViewCell" customModule="BigTalkAppMessages" customModuleProvider="target">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="Cell" id="z0X-gv-Ys2" customClass="BigTalkCell" customModule="BigTalkAppMessages" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="28" width="320" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="z0X-gv-Ys2" id="8pb-gy-I4p">
-                                    <frame key="frameInset" width="320" height="43"/>
+                                    <frame key="frameInset" width="320" height="44"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
-                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6Zz-Ua-08m">
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6Zz-Ua-08m">
                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                             <nil key="textColor"/>
                                             <nil key="highlightedColor"/>
                                         </label>
                                     </subviews>
                                     <constraints>
-                                        <constraint firstItem="6Zz-Ua-08m" firstAttribute="leading" secondItem="8pb-gy-I4p" secondAttribute="leadingMargin" constant="8" id="0T8-HQ-UAZ"/>
-                                        <constraint firstItem="6Zz-Ua-08m" firstAttribute="centerY" secondItem="8pb-gy-I4p" secondAttribute="centerY" id="bIf-eE-O3W"/>
-                                        <constraint firstAttribute="trailingMargin" secondItem="6Zz-Ua-08m" secondAttribute="trailing" constant="8" id="uM7-NM-nLv"/>
+                                        <constraint firstAttribute="bottomMargin" secondItem="6Zz-Ua-08m" secondAttribute="bottom" id="ZGF-iy-abp"/>
+                                        <constraint firstItem="6Zz-Ua-08m" firstAttribute="leading" secondItem="8pb-gy-I4p" secondAttribute="leadingMargin" constant="8" id="g1n-9D-yS9"/>
+                                        <constraint firstAttribute="trailingMargin" secondItem="6Zz-Ua-08m" secondAttribute="trailing" constant="8" id="szt-WP-1he"/>
+                                        <constraint firstItem="6Zz-Ua-08m" firstAttribute="top" secondItem="8pb-gy-I4p" secondAttribute="topMargin" id="vjh-qk-bXM"/>
                                     </constraints>
                                 </tableViewCellContentView>
                                 <connections>
-                                    <outlet property="label" destination="6Zz-Ua-08m" id="ZGX-Mm-x7n"/>
+                                    <outlet property="label" destination="6Zz-Ua-08m" id="CeR-S8-4Ke"/>
                                 </connections>
                             </tableViewCell>
                         </prototypes>

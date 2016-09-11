@@ -12,6 +12,7 @@ import AVFoundation
 
 class MessagesViewController: MSMessagesAppViewController {
     var currentConvos = DataManager.sharedInstance.currentConvos
+    let dataManager = DataManager.sharedInstance
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -28,6 +29,7 @@ class MessagesViewController: MSMessagesAppViewController {
 extension MessagesViewController: UITableViewDelegate {
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         let message = currentConvos?[indexPath.row] ?? ""
+        self.activeConversation?.insert(MSMessage(), completionHandler: nil)
         self.activeConversation?.insertText(message) { (error) in
             print(error?.localizedDescription)
         }
@@ -40,10 +42,14 @@ extension MessagesViewController: UITableViewDataSource {
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "hamhorn") as! HamHornTableViewCell
-//        let key = Array(sounds.keys)[indexPath.row]
-        cell.label.text = currentConvos?[indexPath.row] ?? ""
-        return cell
+        let backupCell = UITableViewCell(style: .default, reuseIdentifier: "Cell")
+        if let cell = tableView.dequeueReusableCell(withIdentifier: "Cell") as? BigTalkCell {
+            cell.label.text = dataManager.currentConvos?[indexPath.row] ?? ""
+            //cell.textLabel?.adjustsFontSizeToFitWidth = true
+            //cell.textLabel?.minimumScaleFactor = 0.2
+            return cell
+        }
+        return backupCell
     }
 
 }

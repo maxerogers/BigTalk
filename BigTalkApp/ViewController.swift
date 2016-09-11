@@ -16,6 +16,9 @@ class ViewController: UITableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        
+        tableView.rowHeight = UITableViewAutomaticDimension
+        tableView.estimatedRowHeight = 140
     }
 
     override func didReceiveMemoryWarning() {
@@ -42,8 +45,12 @@ extension ViewController {
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let backupCell = UITableViewCell(style: .default, reuseIdentifier: "Cell")
-        let cell = tableView.dequeueReusableCell(withIdentifier: "Cell") ?? backupCell
-        cell.textLabel?.text = dataManager.currentConvos?[indexPath.row] ?? ""
-        return cell
+        if let cell = tableView.dequeueReusableCell(withIdentifier: "Cell") as? BigTalkCell {
+            cell.label.text = dataManager.currentConvos?[indexPath.row] ?? ""
+        //cell.textLabel?.adjustsFontSizeToFitWidth = true
+        //cell.textLabel?.minimumScaleFactor = 0.2
+            return cell
+        }
+        return backupCell
     }
 }
